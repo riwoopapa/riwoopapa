@@ -1,4 +1,5 @@
-h1{color: Blue; font-family: arial; font-style: italic;}
+h1{color: dark-grey; font-family: arial; font-style: italic; font-size: 50px;}
 h6{color: Purple; font-family: cursive;}
 .agree{font-style: italic; font-size: 13px; color: grey;}
-#login{font-weight: bold;}
+.login{font-weight: bold; color: rebeccapurple;}
+.submit{color: red;}
