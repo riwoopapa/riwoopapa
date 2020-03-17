@@ -1,5 +1,7 @@
-h1{color: dark-grey; font-family: arial; font-style: italic; font-size: 50px;}
+h1{color: dark-grey; font-family: arial; font-style: italic;}
 h6{color: Purple; font-family: cursive;}
 .agree{font-style: italic; font-size: 13px; color: grey;}
 .login{font-weight: bold; color: rebeccapurple;}
 .submit{color: red;}
+p{font-size: 15px;}
+.back{font-size: 13px; font-style: oblique; font-family: arial black;}
