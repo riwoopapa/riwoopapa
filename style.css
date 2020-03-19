@@ -1,7 +1,78 @@
-h1{color: dark-grey; font-family: arial; font-style: italic;}
-h6{color: Purple; font-family: cursive;}
-.agree{font-style: italic; font-size: 13px; color: grey;}
-.login{font-weight: bold; color: rebeccapurple;}
-.submit{color: red;}
-p{font-size: 15px;}
-.back{font-size: 13px; font-style: oblique; font-family: arial black;}
+* {
+  box-sizing: border-box;
+}
+
+h1{
+  color: dark-grey;
+  font-family: arial;
+  font-style: italic;
+  }
+
+#index .welcome h1{
+  color: black;
+  margin-left: 15px;
+}
+
+#index p{
+  margin-left: 15px;
+}
+
+#studylist{
+  border: 1px solid black;
+  padding: 10px 5px 10px 30px;
+  border-radius: 5px;
+  margin: 15px;
+  width: 480px;
+}
+
+#studylist li{
+}
+
+h6{
+  color: Purple;
+  font-family: cursive;
+  }
+
+.agree{
+  font-style: italic;
+  font-size: 13px;
+  color: grey;
+      }
+
+div{
+  font-weight: bold;
+  color: rebeccapurple;
+   }
+
+p{
+  font-size: 15px;
+  max-width: 512px;
+  }
+
+.back{
+  font-size: 13px;
+  font-style: oblique;
+  font-family: arial black;
+      }
+
+.totallogin{
+  border: 1px dotted black;
+  background-color: grey;
+  border-radius: 10px;
+  width: 300px;
+  height: 80px;
+  text-align: center;
+  color: white;
+  padding-top: 6px;
+  padding-bottom: 4px;
+  margin-left: 10px;
+            }
+
+.totallogin a{
+  color: Black;
+}
+
+#listhead h3{
+  margin-left: 15px;
+  color: black;
+}
