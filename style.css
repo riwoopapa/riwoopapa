@@ -2,77 +2,116 @@
   box-sizing: border-box;
 }
 
-h1{
-  color: dark-grey;
-  font-family: arial;
-  font-style: italic;
-  }
-
-#index .welcome h1{
-  color: black;
-  margin-left: 15px;
+.container {
+  display: grid;
+  grid-gap: 10px;
+  max-width: 500px;
+  margin: auto;
+  position: relative;
+  grid-gap: 30px 30px;
+  grid-template-areas: "nav nav"
+                       "head body"
+                       "head footer";
+  grid-template-rows: 50px 1fr 15px;
+  grid-template-columns: 40px 1fr;
 }
 
-#index p{
-  margin-left: 15px;
+.head {
+  grid-area: head;
+  text-family: arial;
+  border-right: 2px dotted grey;
 }
 
-#studylist{
-  border: 1px solid black;
-  padding: 10px 5px 10px 30px;
-  border-radius: 5px;
-  margin: 15px;
-  width: 480px;
+.titlelist {
+  grid-area: nav;
 }
 
-#studylist li{
+.boxes {
+  width : 125px;
+  height: 50px;
+  padding: 5px;
 }
 
-h6{
-  color: Purple;
-  font-family: cursive;
-  }
+.inline {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
-.agree{
-  font-style: italic;
-  font-size: 13px;
-  color: grey;
-      }
-
-div{
-  font-weight: bold;
-  color: rebeccapurple;
-   }
-
-p{
-  font-size: 15px;
-  max-width: 512px;
-  }
-
-.back{
-  font-size: 13px;
-  font-style: oblique;
-  font-family: arial black;
-      }
-
-.totallogin{
-  border: 1px dotted black;
-  background-color: grey;
-  border-radius: 10px;
-  width: 300px;
-  height: 80px;
-  text-align: center;
+.inline a {
   color: white;
-  padding-top: 6px;
-  padding-bottom: 4px;
-  margin-left: 10px;
-            }
-
-.totallogin a{
-  color: Black;
 }
 
-#listhead h3{
-  margin-left: 15px;
+.inline li {
+  display: inline;
+  border: 2px solid black;
+  background-color: grey;
+}
+
+.body {
+  grid-area: body;
+}
+
+footer {
+  grid-area: footer;
+}
+
+a {
   color: black;
+  font-family: fantasy;
+  font-size: 20px;
+}
+
+.askme {
+  font-size: 10px;
+  font-family: inherit;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.introduce .leader {
+  text-align: right;
+  font-size: 15px;
+  font-family: cursive;
+}
+
+.introduce p {
+  font-family: serif;
+  font-size: 18px;
+}
+
+.allbox {
+  display: grid;
+  grid-template-columns: 300px;
+  grid-template-rows: repeat(5,25px);
+  grid-template-areas: "one"
+                       "two"
+                       "three"
+                       "four"
+                       "five";
+  grid-gap: 10px;
+  border: 2px solid black;
+  margin-top: 30px;
+
+}
+
+.box {
+  border: 1px dotted grey;
+  margin-left: 10px;
+  width: 400px;
+}
+
+.one {
+  grid-area: one;
+}
+.two {
+  grid-area: two;
+}
+.three {
+  grid-area: three;
+}
+.four {
+  grid-area: four;
+}
+.five {
+  grid-area: five;
 }
